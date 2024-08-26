@@ -34,9 +34,11 @@ h1 {
     vertical-align: middle;
     line-height: 30px;
     font-size: x-large;
+    cursor: pointer;
+    transition: all .07s ease;
 }
 
-.sound {
+.sound-name {
     padding: 0;
     margin: 0;
     font-size: small;
@@ -47,7 +49,7 @@ h1 {
     border: solid 3px rgb(238, 9, 9);
     font-size: xx-large;
     font-weight: bolder;
-    cursor: pointer;
+    transform: scale(1.1);
     border-radius: 3px;
     box-shadow: 1px 1px rgb(143, 27, 27);
 }
